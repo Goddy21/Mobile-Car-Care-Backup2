@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Defined a new style with three items of color. -->
+    <style name="DemoTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+
+        <!-- Defining that new color in ColorPrimaryDark -->
+        <item name="colorPrimaryDark">@color/greysh</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="Autocomplete">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+
+</resources>
